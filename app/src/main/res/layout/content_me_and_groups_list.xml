@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_default"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textViewMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="8dp"
+            android:text="Me"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@color/ActionbarColor"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listViewMe"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true" />
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewGroups"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Groups"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/ActionbarColor"
+                    android:textStyle="bold" />
+
+
+                <ListView
+                    android:id="@+id/listViewGroups"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true" />
+            </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_default"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/button_default">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/friendSearch"
+                android:layout_width="294dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:hint="친구검색"
+                android:textColor="@color/app_font_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/ic_search_black_18dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:text="Friends"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/ActionbarColor"
+                android:textStyle="bold" />
+
+
+            <ListView
+                android:id="@+id/listViewFriends"
+                android:layout_width="match_parent"
+                android:layout_height="440dp"
+                android:layout_alignParentEnd="true"
+                android:choiceMode="multipleChoice" />
+
+        </LinearLayout>
+
+</LinearLayout>

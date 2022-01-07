@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_default">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/tab_first"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:gravity="bottom"
+            android:src="@drawable/user_button_selector"
+            android:textColor="@drawable/tab_color_selector" />
+
+        <ImageButton
+            android:id="@+id/tab_second"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:gravity="bottom"
+            android:src="@drawable/firends_button_selector"
+            android:textColor="@drawable/tab_color_selector" />
+
+        <ImageButton
+            android:id="@+id/tab_third"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:gravity="bottom"
+            android:src="@drawable/request_button_selector"
+            android:textColor="@drawable/tab_color_selector" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll"></android.support.v4.view.ViewPager>
+
+</RelativeLayout>

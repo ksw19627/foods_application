@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="FoodsTheme" parent="Theme.AppCompat" >
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="colorPrimary">@color/ActionbarColor</item>
+        <item name="android:colorBackground">@color/button_default</item>
+        <item name="colorAccent">@color/ComponentColor</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:textColorSecondary">@color/button_focused</item>
+        <item name="android:colorPrimary">@color/ActionbarColor</item>
+        <item name="android:colorAccent">@color/ComponentColor</item>
+        <item name="android:colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.AppTheme</item>
+    </style>
+
+    <style name="FoodsTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="colorPrimary">@color/ActionbarColor</item>
+        <item name="android:colorBackground">@color/button_default</item>
+        <item name="colorAccent">@color/ComponentColor</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:textColorSecondary">@color/button_focused</item>
+        <item name="android:colorPrimary">@color/ActionbarColor</item>
+        <item name="android:colorAccent">@color/ComponentColor</item>
+        <item name="android:colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.AppTheme</item>
+    </style>
+</resources>

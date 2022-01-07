@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kchksw.foods6.etc.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/button_default"
+    android:baselineAligned="false"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/button_default"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_weight="2"
+            android:background="@color/button_default"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:src="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/img_user_default" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="179dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2.70"
+                android:gravity="center"
+                android:text="TEXT"
+                android:textColor="@color/app_font_2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@color/app_font_2"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.70"
+                android:gravity="center"
+                android:textColor="@color/app_font_2"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bar_color" />
+
+    </LinearLayout>
+
+
+</com.kchksw.foods6.etc.CheckableLinearLayout>
+

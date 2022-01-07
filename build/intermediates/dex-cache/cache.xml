@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\Foods6\picasso-2.5.2\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Program Files (x86)\Android\Foods6\app\build\intermediates\transforms\dex\debug\folders\1000\4\picasso-2.5.2_448ffcd1645ad0540a062193a312394d7dc9a60a\classes.dex" />
+    </item>
+
+</items>
