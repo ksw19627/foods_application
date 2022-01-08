@@ -4,22 +4,19 @@
 
 **`2017년 졸업 논문 발표 (Foods Application)`**
 
+## ✨ Demo
 
+![demo](https://github.com/ksw19627/foods_application/blob/main/documents/images/demo.gif)
 
 ## :scroll: Table of Contents
 
-  * [Demo](#--demo)
   * [About The Project](#---about-the-project)
-      - [프로젝트 개요](#-------)
-      - [추진 배경 및 필요성](#-----------)    
+    - [프로젝트 개요](#-------)
+    - [추진 배경 및 필요성](#-----------)    
   * [Development](#-blue-book--development)
-      - [개발 목표](#-----)
-      - [구현 내용 및 사용 기술](#-------------)
-      - [시스템 기능 및 구조 설계도](#---------------)
-
-## ✨ Demo
-
-
+    - [개발 목표](#-----)
+    - [구현 내용 및 사용 기술](#-------------)
+    - [시스템 기능 및 구조 설계도](#---------------)
 
 
 
@@ -86,7 +83,7 @@
 #### 개발 목표
 
 * **안드로이드 기반** 음식 기행록 어플리케이션 개발
-*  이는 그 동안 공부했던 `설계패턴`, `데이터베이스`, `네트워크`, `쓰레드`, `php`, `소프트웨어 공학` 등 **학사과정 전반을 통틀어 습득한 지식을 활용**하여 졸업 자격을 평가 받기 위함
+* 이는 그 동안 공부했던 `설계패턴`, `데이터베이스`, `네트워크`, `쓰레드`, `php`, `소프트웨어 공학` 등 **학사과정 전반을 통틀어 습득한 지식을 활용**하여 졸업 자격을 평가 받기 위함
 
 
 
@@ -140,7 +137,7 @@
 
       * 지도를 기반으로 하여 개개인의 저장된 음식 기행록들을 **일목요연** 하게 볼 수 있음.
 
-      *  `DB`의 저장된 내용으로 사용자가 등록한 음식점의 **좌표**와 **기행문**을 불러오며 그 좌표를 지도에 `Marker`를 표시하여 보여줌.
+      * `DB`의 저장된 내용으로 사용자가 등록한 음식점의 **좌표**와 **기행문**을 불러오며 그 좌표를 지도에 `Marker`를 표시하여 보여줌.
 
       * 각 `Marker` 클릭 시 해당 **기행문**과 **평점**, **사진** 등의 자세한 정보를 볼 수 있음.
 
@@ -172,5 +169,30 @@
 
 
 
-#### 시스템 기능 및 구조 설계도
+#### 전체 구조 및 시퀀스 다이어그램
 
+* 시스템 구조
+
+![structure1](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_structure1.png)
+
+![structure2](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_structure2.png)
+
+![structure3](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_structure3.png)
+
+![structure4](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_structure4.png)
+
+  
+
+* 시퀀스 다이어그램
+
+![sequence1](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence01.png)
+
+![sequence2](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence02.png)
+
+![sequence3](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence03.png)
+
+![sequence4](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence04.png)
+
+![sequence5](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence05.png)
+
+​		
