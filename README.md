@@ -1,8 +1,8 @@
-# foods_application
+# Foods application
 
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A"Up+to+Date")
 
-**`2017년 졸업 논문 발표 (Foods Application)`**
+**`2017년 졸업 논문 발표 (안드로이드 기반 앱 Foods)`**
 
 ## ✨ Demo
 
