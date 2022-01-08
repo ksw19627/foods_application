@@ -23,7 +23,7 @@
 
 * **주요 기능**
   * 사용자가 방문한 음식점의 위치를 기반 나만의 지도기반 음식점 관리
-  * 지도기반의 음식 게시물을 Facebook 친구들과 함께 공유하고, 그룹화하여 효율적인 소통 SNS
+  * 지도기반의 음식 게시물을 Facebook 친구들과 함께 공유하고, 그룹화하여 효율적인 소통형 SNS
 
 
 
@@ -35,6 +35,7 @@
 * 안드로이드 기반 음식 기행록 어플리케이션 개발
 *  `설계패턴`, `데이터베이스`, `네트워크`, `쓰레드`, `php`, `소프트웨어 공학` 
   학사과정 전반을 통틀어 습득한 지식 활용
+
 
 
 
@@ -103,9 +104,10 @@
 
 
 
-#### 전체 구조 및 시퀀스 다이어그램
 
-* 시스템 구조
+## :mag_right: Structure & Diagrams
+
+#### 시스템 구조
 
 ![structure1](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_structure1.png)
 
@@ -117,7 +119,7 @@
 
   
 
-* 시퀀스 다이어그램
+#### 시퀀스 다이어그램
 
 ![sequence1](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence01.png)
 
@@ -129,4 +131,4 @@
 
 ![sequence5](https://github.com/ksw19627/foods_application/blob/main/documents/images/foods_sequence05.png)
 
-​		
+
